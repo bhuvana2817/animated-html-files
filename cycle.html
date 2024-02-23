@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bycicle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <svg class="bike" viewBox="0 0 50 35" width="50px" height="40px">
+        <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1">
+            <g transform="translate(9.5,19)">
+                <circle class="bike_tire" r="9" stroke-dasharray="56.549 56.549" />
+                <g class="spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                    <circle class="spokes" r="5" />
+                    <circle class="spokes" r="5" transform="rotate(180,0,0)" />
+                </g>
+            </g>
+            <g transform="translate(25,19)">
+                <g class="pedals-spin" stroke-dasharray="25.133 25.133" stroke-dashoffset="-21.991"
+                    transform="rotate(67.5,0,0)">
+                    <circle class="pedals" r="4" />
+                    <circle class="pedals" r="4" transform="rotate(180,0,0)" />
+                </g>
+            </g>
+            <g transform="translate(39,19)">
+                <circle class="bike_tire" r="9" stroke-dasharray="56.549 56.549" />
+                <g class="spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                    <circle class="spokes" r="5" />
+                    <circle class="spokes" r="5" transform="rotate(180,0,0)" />
+                </g>
+            </g>
+            <polyline class="seat" points="14 3,18 3" stroke-dasharray="5 5" />
+            <polyline class="body" points="16 3,24 19,9.5 19,18 8,34 7,24 19" stroke-dasharray="79 79" />
+            <path class="handlebars" d="m30,2h6s1,0,1-1,1-1,1" stroke-dasharray="10 10" />
+            <polyline class="front" points="33 2,39 19" stroke-dasharray="19 19" />
+        </g>
+    </svg>
+</body>
+
+</html>
